@@ -1,0 +1,5 @@
+file1=open("emp.txt","r")
+file2=open("addfile.txt","a")
+file2.write(file1.read())
+file1.close()
+file2.close()
